@@ -16,17 +16,17 @@ int main()
             {
                 cout<<"*";
             }
-            cout<<endl;
         }
-        cout<<"*";
-        if(i==1||i==2)
+        else
         {
-            for(int j=1;j<6;j++)
+            cout<<"*";
+            for(int i=1;i<6;i++)
             {
                 cout<<" ";
             }
-            cout<<endl;
+            cout<<"*";
         }
         cout<<endl;
     }
+
 }
